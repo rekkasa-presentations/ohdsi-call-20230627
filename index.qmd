@@ -1,0 +1,74 @@
+---
+title: "A standardized framework for risk-based assessment of treatment effect heterogeneity in observational databases"
+author: Alexandros Rekkas
+institute: Erasmus Medical Center, Rotterdam, The Netherlands
+logo: figures/hds-emc.png
+format:
+  revealjs: 
+    default-image-extension: tiff
+css: style.css
+---
+
+## Framework steps
+
+![](figures/framework_steps.png){width=74%}
+
+
+
+
+## Study populations
+
+![](figures/table1.png)
+
+## Prediction step
+
+- Separate acute MI risk prediction models fitted within each database
+- Risk strata defined: below 1%, between 1% and 1.5%, above 1.5%
+
+
+![Table 2: Discriminative ability (c-statistic) of the derived prediction models](figures/table2.png){height=20%}
+
+
+## Estimation step
+
+:::{.panel-tabset}
+
+### Pref. scores
+
+![](figures/ps_density.png){width=63%}
+
+### Covariate balance
+![](figures/covariate_balance.png){width=63%}
+
+### Negative controls
+![](figures/negative_controls.png){width=65%}
+
+:::
+
+## Relative treatment effects
+
+::: {.panel-tabset}
+
+### Main outcomes
+
+![](figures/relative-main.png)
+
+### Safety outcomes
+
+![](figures/relative-safety.png){width=57%}
+
+:::
+
+## Absolute treatment effects
+
+::: {.panel-tabset}
+
+### Main outcomes
+
+![](figures/absolute-main.png)
+
+### Safety outcomes
+
+![](figures/absolute-safety.png){width=55%}
+:::
+
