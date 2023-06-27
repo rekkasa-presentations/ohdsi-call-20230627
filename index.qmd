@@ -49,6 +49,10 @@ css: style.css
 
 ::: {.panel-tabset}
 
+### Overall
+
+![](figures/overall.png)
+
 ### Main outcomes
 
 ![](figures/relative-main.png)
